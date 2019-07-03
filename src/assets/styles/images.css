@@ -1,12 +1,84 @@
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.scene {
+  width: 100vw;
+  height: 120vh;
+}
+.background-area {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+}
+
+.background {
+  width: 160%;
+  margin-left: -15%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}
+
 .mountain-right {
-  margin-left: 40%;
+  margin-left: 40vw;
   width: 70%;
-  height: 70%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
 }
 
 .mountain-left {
-
-  margin-left: -50%;
   width: 70%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.ground {
+  width:100%;
+  height: 55vh;
+  position: absolute;
+  bottom: 0;
+  background: url(../images/ground.png);
+}
+
+.plant1 {
+ width: auto;
+ height: 15vh;
+ margin-left: 75vw;
+ margin-top: 58vh;
+}
+
+.plant2 {
+ width: 70%;
+ height: auto;
+ margin-left: 1150%;
+ margin-top: 430%;
+}
+
+.temple {
+  height: 50vh;
+  width: auto;
+  margin-left: 30vw;
+  margin-top: 30vh;
+  position: relative;
+}
+
+.black-plant-right {
   height: 70%;
+  width: auto;
+  margin-left: 65vw;
+  margin-top: 35%;
+}
+
+.black-plant-left {
+  height: 70%;
+  width: auto;
+  margin-left: -10vw;
+  margin-top: 15%;
+
 }
